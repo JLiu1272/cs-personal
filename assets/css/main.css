@@ -1626,7 +1626,7 @@
 
 	h3 {
 		font-size: 1.25em;
-		line-height: 1.5em;
+		/*line-height: 1.5em;*/
 	}
 
 	h4 {
@@ -2087,7 +2087,7 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				/*border-radius: 100%;*/
 				width: 100%;
 			}
 
@@ -2528,7 +2528,7 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 15.25em;
 		}
 
 /* Footer */
