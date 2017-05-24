@@ -1,6 +1,10 @@
 <?php
-
-	if (isset($_POST["submit"])){
+	
+	if(isset($_GET["submit"])){
+		echo "Hello";
+	}
+	/*if (isset($_POST["submit"])){
+	   echo "Hello";		
 	   $name = $_POST['name'];
 	   $email = $_POST['email'];
 	   $message = $_POST['message'];
@@ -34,5 +38,5 @@
 			} else {
 				$result='<div>Sorry there was an error sending your message. Please try again later</div>';
 			}
-	}
+	}*/
 ?>
